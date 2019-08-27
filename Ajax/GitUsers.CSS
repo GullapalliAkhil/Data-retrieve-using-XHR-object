@@ -1,0 +1,88 @@
+﻿body{
+    background-color:#027368;
+    width:90%;
+    min-width:45%;
+}
+body button{
+    outline:none;
+    border:none;
+    background-color: goldenrod;
+    color:white;
+    font-size:14px;
+    font-weight:600;
+    padding:8px;
+    display:block;
+    margin:auto;
+    margin-top:20px;
+    border-radius:12px;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', "Segoe UI", sans-serif, 'ubuntu';
+}
+body div#show{
+
+    background-color:#262626;
+    width:80%;
+    height:700px;
+    display:grid;
+    grid-template-columns: 35% 35% 35%;
+     grid-row-gap: 40px;
+     grid-column-gap: 4px;
+    margin:auto;
+    border-radius:10px;
+    overflow:hidden;
+    overflow: scroll;
+    margin-left:180px;
+    padding-right:40px;
+    overflow-x:hidden;
+    min-width: 900px;
+    padding-bottom:20px;
+    
+    
+}
+div#usersEach{
+
+    display:flex;
+    background-color: #038C65;
+    margin:auto;
+    margin-left:30px;
+    width:80%;
+    height:250px;
+    margin-top:20px;
+    border-radius:10px;
+    overflow:hidden;
+    font-weight:600;
+    font-size:14px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', "Segoe UI", sans-serif, 'ubuntu';
+    
+
+    
+}
+ul{
+    margin :auto;
+    background-color:whitesmoke;
+    width:50%;
+    height:85%;
+    padding:10px;
+    margin-left:-10px;
+    border-radius:10px;
+
+}
+ li{
+     background-color: whitesmoke;
+    margin:auto; 
+    margin-top:10px;
+    list-style:none;
+    width:px;
+    padding-right:4px;
+    padding-top:8px;
+    padding-bottom:8px;
+    
+}
+img{
+    border:rgb(47, 88, 88);
+    border-radius:100%;
+    width:100px;
+    height:100px;
+    margin:auto;
+    margin-left:8px;
+}
